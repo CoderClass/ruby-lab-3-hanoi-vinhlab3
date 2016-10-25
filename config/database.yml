@@ -33,10 +33,10 @@ development:
   <<: *default
   database: CoderStore_development
 
-  test:
+test:
   <<: *default
   database: CoderStore_test
 
-  production:
+production:
   <<: *default
   database: CoderStore_production
